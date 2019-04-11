@@ -3,10 +3,11 @@ Simple test code testing Tigress obfuscator tool
 
 
 At the time I was testing this, after intalling Tigress I was getting this error:
-Cannot find GNUCC version
+
+`Cannot find GNUCC version`
 
 To fix it, the following change is needed for Tigress in ~/tools/tigress-2.2/App/Cilly.pm:
-
+```
 sub setVersion {
     my($self) = @_;
     my $cversion = "";
@@ -24,4 +25,4 @@ sub setVersion {
     }
     die "Cannot find GNUCC version\n";
 }
-
+```
