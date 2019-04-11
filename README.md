@@ -1,5 +1,5 @@
 # test_tigress_obfuscator
-Simple test code testing Tigress obfuscator tool
+Simple test code testing Tigress obfuscator tool, http://tigress.cs.arizona.edu/
 
 
 At the time I was testing this, after intalling Tigress I was getting this error:
@@ -26,3 +26,5 @@ sub setVersion {
     die "Cannot find GNUCC version\n";
 }
 ```
+
+To build project run `make` to clean project run `make clean`.
